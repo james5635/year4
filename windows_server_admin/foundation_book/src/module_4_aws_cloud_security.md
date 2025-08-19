@@ -40,12 +40,12 @@ AWS responsibilities:
 ### Customer responsibility: Security in the cloud
 
 ```txt
-+---------------------+
-| Customer Data 
-+----------------------
-| Applications, IAM  
-+----------------------
-| Operating System, network, and firewall configuration
++---------------------------------------------------------------------------------------+
+| Customer Data                                                                         |
++---------------------------------------------------------------------------------------+
+| Applications, IAM                                                                     |
++---------------------------------------------------------------------------------------+
+| Operating System, network, and firewall configuration                                 |
 +--------------------------+------------------------+-----------------------------------+
 | Client-side data         | server-side encryption | network-traffic                   |
 | encryption and data      | (file system or data)  | protection                        |
@@ -214,3 +214,121 @@ Solution:
 - define an IAM policy that grants access to the S3 bucket
 - attach the policy to a role
 - allow the EC2 instance to assume the role
+
+## 3. Securing a New AWS Account
+
+### AWS account root user access versus IAM access
+
+```txt
++---------------------------------+----------------------------------+
+| Account root user               | IAM                              |
++---------------------------------+----------------------------------+
+| Privileges cannot be controlled | Integrate with other AWS servies |
+| Full access to all resourcs     | Identity federation              |
+|                                 | Secure access for applications   |
+|                                 | Granular permissions             |
++---------------------------------+----------------------------------+
+```
+
+## 4. Securing Accounts
+
+### AWS Organization
+
+- AWS Organizations enables you to consolidate multiple AWS accounts so that you centrally manage them.  
+- Security features of AWS Organizations:
+  - Group AWS accounts into organizational units (OUs) and attach different access policies to each OU
+  - Integration and support for IAM
+    - Permissions to a user are the intersection of what is allowed by AWS Organizations and what is granted by IAM in that account
+  - Use service control policies to establish control over the AWS services and API actions that each AWS account can access
+
+### AWS Organizations: Service control policies
+
+- Service control policies (SPCs) offer centralized control over accounts
+  - Limit permissions that are available in an account that is part of an organization
+- Ensures that accounts comply with access control guidelines
+- SCPs are similar to IAM permissions policies
+  - They use similar syntax
+  - However, an SCP never grants permissions
+  - Instead, SPCs specify the maximum permissons for an organization
+
+### AWS Key Management Service (AWS KMS)
+
+AWS Key Management Service (AWS KMS) features:
+
+- Enables you to create and manage encryption keys
+- Enables you to control the use of encryption across AWS services and in your applications
+- Integrate with AWS CloudTrail to log all key usage
+- Uses hardware security modules (HSMs) that are validated by Federal Information processing standards (FIPS) 140-2 to protect keys
+
+### Amazon Cognito
+
+Amazon Cognito features:  
+
+- Adds user sign-up, sign-in and access control to your web and module applications
+- Scales to millions of users
+- Support sign-in with social identity providers, such as Facebook, Google and Amazon and enterprise identity providers, such as Microsoft Azure Directory via Security Assertion Markup Language (SAML) 2.0
+
+### AWS Shield
+
+- AWS Shield features:
+  - is a managed distributed denial of service (DDos) protection service
+  - Safeguards applications running on AWS
+  - Provide always-on detection and automatic inline mitigations
+  - AWS Shield Standard enabled for at no additional cost. AWS Shielf Advanced is an optional paid service
+- Use it to minimize application downtime and latency
+
+## 5. Securing Data
+
+### Encryption of data in transit
+
+- Encyption of data in transit (data moving across a network)
+  - Transport Layer Security (TLS)—formerly SSL—is an open standard protocol
+  - AWS Certificate Manager provides a way to manage, deploy, and renew TLS or SSL certificates
+- Secure HTTP (HTTPS) creates a secure tunnel
+  - Uses TLS or SSL for the bidirectional exchange of data
+- AWS services support data in transit encryption
+
+## 6. wokring to ensure compliance
+
+### AWS compliance program
+
+- customers are subject to many different security and compliance regulations and requirements
+- AWS engages with cerifying bodies and independent auditors to provide customers with detailed information about the policies, processes and controls that are established and operated by AWS
+- Compliance programs can be broadly categorized—
+  - Certifications and attestations
+    - Assessed by a third-party, independent auditor
+    - Examples: ISO 27001, 27017, 27018, and ISO/IEC 9001
+  - Laws, regulations, and privacy
+    - AWS provides security features and legal agreements to support compliance
+    - Examples: EU General Data Protection Regulation (GDPR), HPAA
+  - Alignments and frameworks
+    - industry or function-specific security or compliance requirements
+    - Example: Center for internet security (CIS), EU-US Privacy Shield  certified
+
+### AWS config
+
+- Assess, audit, and evaluate the configurations of AWS resources
+- Use for continuous monitoring of configurations
+- Automaticallly evaluate recorded configurations versus desired configurations
+- Review configuration changes
+- View detailed configuration histories
+- Simplify compliance auditing and security analysis
+
+### AWS Artifact
+
+- Is a resource for compliance-related information
+- Provide access to security and complicance reports, and select online agreements
+- Can access example downloads
+  - AWS ISO certifications
+  - Payment Card Industry (PCI) and Service Organization Control (SOC) reports
+- Access AWS Artifact directly from the AWS Management Console
+  - Under Security,Identity & Compliance, click artifact
+
+## 7. Module summary
+
+Which of the following is AWS's responsibility under the AWS shared responsibility model?
+
+1. Configuring third-party applications
+2. Maintaining physical hardware ✅
+3. Securing applicatin access and data
+4. Managing custom Amazon Machine Images (AMIs)
