@@ -1,0 +1,49 @@
+# Faculty
+
+- Faculty of social science and humanities
+  - Khmer Literature
+  - Geography and Land Management
+  - Psychology
+  - Sociology
+  - History
+  - Philosophy
+  - Social Work
+  - Media and Communication
+  - Tourism
+  - Linguistics
+- Faculty of science
+  - Mathematics
+  - Physics
+  - Biology
+  - Chemistry
+  - Environmental Science
+  - Computer Science
+  - International Business Management
+- Faculty of Development Studies
+  - Economic Development
+  - Community Development
+  - Natural Resource Management and Development
+  - Sustainable Urban Planning and Development
+- Faculty of Engineering
+  - Bio Engineering Biotechnology
+  - Food Technology And Engineering
+  - Information Technology Engineering
+  - Data Science And Engineering
+  - Telecommunication & Electronic Engineering
+  - Environmental Engineering
+  - Automation And Supply Chain System Engineering
+- Faculty of Education
+  - Lifelong Learning
+  - Educational Studies
+  - Higher Education Development and Management
+- Institute of foreign languages
+  - English
+  - French
+  - Japanese
+  - Korean
+  - Chinese
+  - Thai
+- Institute for International Studies and Public Policy
+  - International Relations
+  - International Economics
+  - Political Science and Public Policy
