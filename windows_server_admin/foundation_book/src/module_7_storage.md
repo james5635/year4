@@ -136,4 +136,38 @@ To estimate Amazon S3 costs, consider the following:
 - Pricing is based on the amount of data that is transferred out of the Amazon S3 Region
   - Data Transfer in is free, but you incur changes for data that is tranferred out
 
-## 3. AWS EFS
+## 3. AWS EFS (Amazon Elastic File System)
+
+Amazon EFS features:
+
+- File Storage in the AWS Cloud
+- Works well for big data and analytics, media processing workflows, content management, web serving, and home directories
+- Petabyte-scale, low-letency file system
+- Shared storage
+- Elastic capacity
+- Supports Network file system (NFS) versions 4.0 and 4.1 (NFSv4)
+- Compatible with all linux-based AMIs for Amazon EC2
+
+### Amazon EFS architecure
+
+### Amazon EFS implementation
+
+1. Create your amazon EC2 resources and launch your Amazon EC2 instance
+2. Create your amazon EFS file system
+3. Create your mount targets in the appropriate subnets
+4. Connect your Amazon EC2 instances to the mount targets
+5. Verify the resources and protection of your AWS account
+
+### Amazon EFS resources
+
+File system
+
+- Mount target
+  - Subnet ID
+  - Security groups
+  - One or more per file system
+  - Create in a VPC subnet
+  - one per availability Zone
+  - Must be in the same VPC
+- Tags
+  - Key-Value pairs
