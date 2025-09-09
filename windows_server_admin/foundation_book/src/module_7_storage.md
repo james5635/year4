@@ -171,3 +171,74 @@ File system
   - Must be in the same VPC
 - Tags
   - Key-Value pairs
+
+## 4. Amazon S3 Glacier
+
+Amazon S3 Glacier, is a data archiving service that is designed for security, durability and an extremely low cost
+
+- Amazon S3 Glacier is designed to provide 11 9s of durability for objects
+- It supports the encryption of data in transit and a rest through Secure Sockets Layer (SSL) or Transport Layter Security (TLS)
+- The Vault Lock Feature enforces compliance through a policy
+- Extremly low-cost design works well for long-term archiving
+  - Provides three options for access to archives—expected, standard, and bulk—retrival times range from a few minutes to several hours
+
+### Amazon S3 Glacier
+
+- Storage service for low-cost data archiving and long-term backup
+- you can configure lifecycle archiving of Amazon S3 content to Amazon S3 Glacier
+- Retrieval options
+  - Standard: 3-5 hours
+  - Bulk: 5-12 hours
+  - Exprected: 1-5 minutes
+
+### Amazon S3 Glacier use cases
+
+- Media asset archiving
+- Healthcare information archiving
+- Regulatory and  compliance archiving
+- Scientific data archiving
+- digital preservation
+- Magnetic tape replacement
+
+### Using Amazon S3 Glacier
+
+Amazon S3 lifecycle policies enable you to delete or move objects based on age
+
+### Amazon S3 storage classes
+
+| Storage Class                      | Features                                                                                                                                                                                |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| S3 standard                        | <ul><li> >= three availability zones</li></ul>                                                                                                                                          |
+| S3 standard-infrequent access (IA) | <ul><li>Retrieval fee is associated with objects</li><li>Most suitable for infrequently accessed data</li></ul>                                                                         |
+| S3 Intelligent-Tiering             | <ul><li>It automatically moves objects between tiers based on access patterns</li><li>>=3 availability zones</li></ul>                                                                  |
+| S3 One Zone-IA                     | <ul><li>One Availability Zone</li><li>Costs less than Amazon S3 Standard-IA</li></ul>                                                                                                   |
+| S3 Glacier                         | <ul><li>It is not available for real-time access</li><li>YOu must restore objects before you can access them</li><li>restoring objects can take between 1 minute and 12 hours</li></ul> |
+| S4 Glacier Deep Archive            | <ul><li>Lowest cost storage for long-term retention (7-10 years)</li><li>>= Availability zones</li></ul>                                                                                |
+
+### Storage Comparison
+
+| Type              | Amazon S3                     | Amazon S3 Glacier      |
+| ----------------- | ----------------------------- | ---------------------- |
+| Data Volume       | No limit                      | no limit               |
+| Average Latency   | ms                            | minute/hours           |
+| Item size         | 5 TB maximum                  | 40 TB maximum          |
+| Cost/GB per Month | Higher Cost                   | Lower cost             |
+| Billed Requests   | PUT, COPY, POST, LIST and GET | UPLOAD and retrieval   |
+| Retrival Pricing  | Per Request                   | Per request and per GB |
+
+### Server-side encryption
+
+### Security with Amazon S3 Glacier
+
+- Control access with IAM
+- Amazon S3 Glacier encrypts your data with AES-256
+- Amazon S3 Glacier manages your keys for you
+
+### Module Summary
+
+A Company wants to store data that is not frequently accessed. What is the best and cost-effective solution that should be considered?
+
+1. Amazon Storage Gatewat
+2. Amazon S3 Glacier ✅
+3. Amazon EBS
+4. Amazon S3
