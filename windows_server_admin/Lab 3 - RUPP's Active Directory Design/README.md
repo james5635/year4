@@ -47,4 +47,3 @@
   - International Relations
   - International Economics
   - Political Science and Public Policy
-  - marketing
