@@ -1,0 +1,40 @@
+public class ClsStudent
+{
+    public string Name { get; set; }
+    public Addr Address { get; set; }
+    public ClsStudent() { }
+    public ClsStudent(string name, Addr address) { }
+    public ClsStudent(string name, string village, string commune, string district, string province)
+    {
+        this.Name = name;
+        this.Address = new Addr();
+        this.Address.Village = village;
+        this.Address.Commune = commune;
+        this.Address.District = district;
+        this.Address.Province = province;
+    }
+
+}
+public class Addr
+{
+    public string Village { get; set; }
+    public string Commune { get; set; }
+    public string District { get; set; }
+    public string Province { get; set; }
+    public Addr() { }
+    public Addr(string village, string commune, string district, string province)
+    {
+        this.Village = village;
+        this.Commune = commune;
+        this.District = district;
+        this.Province = province;
+    }
+}
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}

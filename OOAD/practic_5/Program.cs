@@ -1,0 +1,18 @@
+// See https://aka.ms/new-console-template for more information
+
+
+Console.WriteLine("Hello, World!");
+
+public class ListClass
+{
+    private List<string> m_list = new List<string>();
+    private string m_name;
+    public string Name
+    {
+        get { return this.m_name; }
+        set { this.m_name = value; }
+    }
+    public void SetItem(int i, string s) => this.m_list[i] = s;
+
+    public string GetItem(int i) => this.m_list[i];
+}

@@ -1,0 +1,15 @@
+/home/jame/Desktop/coding/year4/OOAD/practice_4/bin/Debug/net9.0/practice_4
+/home/jame/Desktop/coding/year4/OOAD/practice_4/bin/Debug/net9.0/practice_4.deps.json
+/home/jame/Desktop/coding/year4/OOAD/practice_4/bin/Debug/net9.0/practice_4.runtimeconfig.json
+/home/jame/Desktop/coding/year4/OOAD/practice_4/bin/Debug/net9.0/practice_4.dll
+/home/jame/Desktop/coding/year4/OOAD/practice_4/bin/Debug/net9.0/practice_4.pdb
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.GeneratedMSBuildEditorConfig.editorconfig
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.AssemblyInfoInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.AssemblyInfo.cs
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.csproj.CoreCompileInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.sourcelink.json
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.dll
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/refint/practice_4.dll
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.pdb
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/practice_4.genruntimeconfig.cache
+/home/jame/Desktop/coding/year4/OOAD/practice_4/obj/Debug/net9.0/ref/practice_4.dll

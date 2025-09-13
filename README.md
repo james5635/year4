@@ -8,3 +8,4 @@ Resource for year 4 course
 - [ ] windows server (13 lab)
 - [ ] Software Engineering (library management project)
 - [ ] Mobile (implement cpp_project in dart)
+- [ ] Mobile (Reading dart docs)
