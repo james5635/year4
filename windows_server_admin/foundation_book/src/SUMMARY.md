@@ -8,3 +8,4 @@
 - [Compute](./module_6_compute.md)
 - [Storage](./module_7_storage.md)
 - [Databases](./module_8_databases.md)
+- [Cloud Architecture](./module_9_cloud_architecture.md)

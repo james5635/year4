@@ -1,4 +1,5 @@
 If you just want to share a folder on your LAN:
+
 1. Choose a folder you want to share.
 2. Right-click → Properties → Sharing tab.
 3. Click "Advanced Sharing", check "Share this folder", set permissions.
@@ -6,9 +7,11 @@ If you just want to share a folder on your LAN:
 5. Click OK.
 
 Find your PC’s IP:
+
 ```powershell
 ipconfig
 ```
+
 ```powershell
 \\<your-ip>\sharename
 ```
