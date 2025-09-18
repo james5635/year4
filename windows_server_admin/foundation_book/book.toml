@@ -8,6 +8,7 @@ title = "foundation_book"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+[preprocessor.alerts]
 
 [output]
 
