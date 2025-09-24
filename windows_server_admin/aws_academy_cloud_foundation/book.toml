@@ -1,0 +1,16 @@
+[book]
+authors = ["james5635"]
+language = "en"
+src = "src"
+title = "foundation_book"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+[preprocessor.alerts]
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
