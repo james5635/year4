@@ -1,0 +1,8 @@
+Record video
+Disk Quota
+1. Install File Server Resource Manager ✅
+2. Limit Directory ✅
+    Size: 100 MB
+3. Limit User ✅
+    Size : 100 MB
+3. No Image/Video/Sound/Executable file allows ✅
