@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jame/Desktop/coding/year4/OOAD/lab_02/test/test.csproj": {}
+    "/home/jame/Desktop/coding/year4/OOAD/test/test.csproj": {}
   },
   "projects": {
-    "/home/jame/Desktop/coding/year4/OOAD/lab_02/test/test.csproj": {
+    "/home/jame/Desktop/coding/year4/OOAD/test/test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jame/Desktop/coding/year4/OOAD/lab_02/test/test.csproj",
+        "projectUniqueName": "/home/jame/Desktop/coding/year4/OOAD/test/test.csproj",
         "projectName": "test",
-        "projectPath": "/home/jame/Desktop/coding/year4/OOAD/lab_02/test/test.csproj",
+        "projectPath": "/home/jame/Desktop/coding/year4/OOAD/test/test.csproj",
         "packagesPath": "/home/jame/.nuget/packages/",
-        "outputPath": "/home/jame/Desktop/coding/year4/OOAD/lab_02/test/obj/",
+        "outputPath": "/home/jame/Desktop/coding/year4/OOAD/test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jame/.nuget/NuGet/NuGet.Config"

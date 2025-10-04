@@ -1,0 +1,15 @@
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.GeneratedMSBuildEditorConfig.editorconfig
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.AssemblyInfoInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.AssemblyInfo.cs
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.csproj.CoreCompileInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.sourcelink.json
+/home/jame/Desktop/coding/year4/OOAD/test/bin/Debug/net9.0/test
+/home/jame/Desktop/coding/year4/OOAD/test/bin/Debug/net9.0/test.deps.json
+/home/jame/Desktop/coding/year4/OOAD/test/bin/Debug/net9.0/test.runtimeconfig.json
+/home/jame/Desktop/coding/year4/OOAD/test/bin/Debug/net9.0/test.dll
+/home/jame/Desktop/coding/year4/OOAD/test/bin/Debug/net9.0/test.pdb
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.dll
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/refint/test.dll
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.pdb
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/test.genruntimeconfig.cache
+/home/jame/Desktop/coding/year4/OOAD/test/obj/Debug/net9.0/ref/test.dll

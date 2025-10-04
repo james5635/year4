@@ -1,0 +1,12 @@
+Lab
+a. Profile in Windows Server 2022
+1. Local Profile : Stays on one computer. ✅
+2. Roaming Profile: Follows user across domain computers. ✅
+3. Mandatory Profile: Always the same, no saved changes. ✅
+4. Temporary Profile: Used only when something’s broken. ✅
+5. FSLogix: Modern replacement for roaming profiles, especially in VDI/RDS.✅
+
+b. Logon script
+- Map drive for share folder ✅
+
+c. Write script to create 200 users loading from excel ✅
