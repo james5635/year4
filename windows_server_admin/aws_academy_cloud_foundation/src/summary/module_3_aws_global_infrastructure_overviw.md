@@ -1,63 +1,123 @@
-# AWS Global Infrastructure Overview
 
-## 1. AWS Global Infrastructure
+# 🌍 **AWS Global Infrastructure Overview — Summary**
 
-* **Built for** flexibility, reliability, scalability, security, and high network performance.
+## 🧭 **1. AWS Global Infrastructure**
 
-### AWS Regions
+**Purpose:**
+Provide a **flexible**, **reliable**, **scalable**, and **secure** cloud environment with **high global network performance**.
 
-* Geographical areas with full redundancy and connectivity.
-* Consist of 2+ **Availability Zones (AZs)**.
-* Factors when choosing: compliance/legal, proximity (latency), available services, cost.
+### 🗺️ **AWS Regions**
 
-### Availability Zones (AZs)
+* **Geographical areas** containing multiple Availability Zones.
+* **You control** data replication between Regions.
+* Regions are connected via AWS **backbone network**.
+* **Choose a Region** based on:
 
-* Multiple per region, each isolated but interconnected with high-speed private networks.
-* Fault-isolated, redundant, resilient.
-* Best practice → replicate data/resources across AZs.
+  * Data governance & legal requirements
+  * Customer proximity (latency)
+  * Service availability
+  * Cost differences
 
-### AWS Data Centers
+---
 
-* Secure, redundant (power, networking, connectivity).
-* Typically host 50k–80k physical servers.
+### 🏢 **Availability Zones (AZs)**
 
-### Points of Presence (PoPs)
+* Each Region has **multiple AZs** → **69 worldwide**.
+* Each AZ is:
 
-* **187 locations** (176 edge, 11 regional caches).
-* Used by **Amazon CloudFront** for global CDN → low-latency content delivery.
-* Regional caches → optimize infrequently accessed content.
+  * A fully isolated infrastructure partition
+  * Made up of discrete data centers
+  * Connected to other AZs via **high-speed private networks**
+* You choose the AZs; AWS recommends **replication across AZs** for **fault tolerance & resiliency**.
 
-### Infrastructure Features
+---
 
-* **Elasticity & Scalability** → dynamic adjustment to demand and growth.
-* **Fault-tolerance** → continues operating despite failures.
-* **High availability** → minimal downtime, automated recovery.
+### 🖥️ **AWS Data Centers**
 
-## 2. AWS Services
+* **Secure** facilities where data is stored and processed.
+* Redundant power, networking, connectivity.
+* **50,000–80,000 physical servers** per data center.
 
-### Foundational Services
+---
 
-* **Infrastructure**: Regions, AZs, Edge Locations.
-* **Foundation Services**: Compute, Networking, Storage.
-* **Platform Services**: Databases, Analytics, App services, DevOps, Identity, Mobile.
-* **Application Services**: Virtual desktops, Collaboration/sharing.
+### 🌐 **Points of Presence (PoPs)**
 
-### Key Categories
+* **187 global locations** (176 edge + 11 regional edge caches).
+* Used with **Amazon CloudFront** (Content Delivery Network) to:
 
-* **Storage**: S3, EBS, Glacier, EFS.
-* **Compute**: EC2, Auto Scaling, ECS, ECR, Beanstalk, Lambda, EKS, Fargate.
-* **Database**: RDS, Aurora, Redshift, DynamoDB.
-* **Networking/CDN**: VPC, ELB, CloudFront, Route 53, Transit Gateway, Direct Connect, VPN.
-* **Security**: IAM, Organizations, Cognito, Artifact, KMS, Shield.
-* **Cost Management**: Cost & Usage Report, Budgets, Cost Explorer.
-* **Management & Governance**: Console, CLI, CloudWatch, Auto Scaling, Config, CloudTrail, Trusted Advisor, Well-Architected Tool.
+  * **Deliver content globally** with low latency
+  * **Cache infrequently accessed content** in regional edge caches
 
-## Module Summary
+---
 
-* AWS **Regions** = geographic clusters of data centers.
-* **Availability Zones** = isolated, resilient data centers within regions.
-* **Edge Locations** = used by **CloudFront** for low-latency content delivery.
+### ⚡ **Infrastructure Features**
 
-**Sample exam Q:**
-Which AWS component does CloudFront use for low-latency delivery?
-✅ **AWS edge locations**
+| Feature               | Description                                                |
+| --------------------- | ---------------------------------------------------------- |
+| **Elasticity**        | Dynamically adjust capacity based on demand                |
+| **Scalability**       | Adapt to growth seamlessly                                 |
+| **Fault tolerance**   | Continue operations despite failures (built-in redundancy) |
+| **High availability** | Minimized downtime with little to no human intervention    |
+
+---
+
+## 🧰 **2. AWS Services Overview**
+
+AWS services are organized into **Infrastructure**, **Foundation**, **Platform**, and **Application** layers.
+
+### 🏗️ **Infrastructure Layer**
+
+* **Regions**, **Availability Zones**, **Edge Locations**
+
+---
+
+### 🧱 **Foundation Services**
+
+| Category       | Examples                                                             |
+| -------------- | -------------------------------------------------------------------- |
+| **Compute**    | EC2, Auto Scaling, Lambda, ECS, EKS, Elastic Beanstalk, Fargate      |
+| **Networking** | VPC, ELB, CloudFront, Route 53, Transit Gateway, Direct Connect, VPN |
+| **Storage**    | S3, EBS, Glacier, EFS                                                |
+
+---
+
+### 🛠️ **Platform Services**
+
+| Category                    | Examples                                                      |
+| --------------------------- | ------------------------------------------------------------- |
+| **Databases**               | RDS, Aurora, DynamoDB, Redshift                               |
+| **Analytics**               | Real-time data warehouse, cluster computing                   |
+| **Application Services**    | Queuing, orchestration, app streaming, email, search          |
+| **Deployment & Management** | Containers, DevOps tools, monitoring (CloudWatch), CloudTrail |
+
+---
+
+### 🧑‍💻 **Application Services**
+
+* Collaboration, file sharing, virtual desktops, mobile analytics, notifications, identity sync, etc.
+
+---
+
+### 🛡️ **Security, Identity & Compliance**
+
+* IAM, AWS Organizations, Cognito, Artifact, KMS, Shield
+
+---
+
+### 💰 **Cost Management**
+
+* Cost & Usage Reports, Budgets, Cost Explorer
+
+---
+
+### 🧭 **Management & Governance**
+
+* Management Console, CLI, Config, Auto Scaling, CloudWatch, Trusted Advisor, Well-Architected Tool, CloudTrail
+
+---
+
+## 📝 **Module Summary**
+
+**Q:** Which AWS global infrastructure component does **Amazon CloudFront** use to ensure **low-latency delivery**?
+✅ **2. AWS Edge Locations**
+
