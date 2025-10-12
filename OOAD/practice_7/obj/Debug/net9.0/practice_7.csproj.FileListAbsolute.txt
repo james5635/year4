@@ -1,0 +1,15 @@
+/home/jame/Desktop/coding/year4/OOAD/practice_7/bin/Debug/net9.0/practice_7
+/home/jame/Desktop/coding/year4/OOAD/practice_7/bin/Debug/net9.0/practice_7.deps.json
+/home/jame/Desktop/coding/year4/OOAD/practice_7/bin/Debug/net9.0/practice_7.runtimeconfig.json
+/home/jame/Desktop/coding/year4/OOAD/practice_7/bin/Debug/net9.0/practice_7.dll
+/home/jame/Desktop/coding/year4/OOAD/practice_7/bin/Debug/net9.0/practice_7.pdb
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.GeneratedMSBuildEditorConfig.editorconfig
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.AssemblyInfoInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.AssemblyInfo.cs
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.csproj.CoreCompileInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.sourcelink.json
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.dll
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/refint/practice_7.dll
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.pdb
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/practice_7.genruntimeconfig.cache
+/home/jame/Desktop/coding/year4/OOAD/practice_7/obj/Debug/net9.0/ref/practice_7.dll
