@@ -4,7 +4,7 @@
 
 ### What is Cloud Computing?
 
-cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources via the internet with pay-as-you-go pricing.  
+cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources via the internet with pay-as-you-go pricing.
 
 ### Infrastrucure as hardware
 
@@ -30,8 +30,8 @@ Cloud computing enables you to stop thinking of your infrastructure as hardware,
 
 1. IaaS (infrastructure as a service)
 2. Paas (Platform as a service)
-3. Saas (software as a service)  
-More control over IT resources (1) -> Less control over IT resources (3)
+3. Saas (software as a service)
+   More control over IT resources (1) -> Less control over IT resources (3)
 
 ```
 +-------------------------------+ +-------------------------+ +-------------------------+
@@ -147,7 +147,7 @@ The service you select depends on your business goals and technology requirement
 
 ### Services covered in this course
 
-Compute services:  
+Compute services:
 
 - Amazon EC2
 - AWS lambda
@@ -157,17 +157,23 @@ Compute services:
 - Amazon EKS
 - Amazon ECR
 - AWS Fargate
-Storage Service:  
+
+Storage Service:
+
 - Amazon S3
 - Amazon S3 Glacier
 - Amazon EFS
 - Amazon EBS
-Database Services:  
+
+Database Services:
+
 - Amazon RDS
 - Amazon DynamoDB
 - Amazon Redshift
 - Amazon Aurora
-Management and Governance services:  
+
+Management and Governance services:
+
 - AWS Trusted Advisor
 - AWS CloudWatch
 - AWS CloudTrail
@@ -177,16 +183,22 @@ Management and Governance services:
 - AWS Config
 - AWS Management Console
 - AWS Organizations
-AWS Cost Management services:  
+
+AWS Cost Management services:
+
 - AWS Cost & Usage Report
 - AWS Budgets
 - AWS Cost Explorer
-Networking and Content Delivery services:  
+
+Networking and Content Delivery services:
+
 - Amazon VPC
 - Amazon Route 53
 - Amazon CloudFront
 - Elastic Load Balancing
-Security, Identity, and Compliance services:  
+
+Security, Identity, and Compliance services:
+
 - AWS IAM
 - Amazon Cognito
 - AWS Shield
@@ -251,7 +263,7 @@ Business perspective capabilities
 
 > "We must ensure that IT is aligned with business needs and that IT investments can be traced to demonstrable business results."
 > — Business managers, finance managers, budget owners, and strategy stakeholders
->
+
 ### People perspective
 
 ```
@@ -269,7 +281,7 @@ People perspective capabilities
 
 > "We must prioritize traning, staffing, and organizational changes to build an agile organization."
 > — Human resources, staffing, and people managers
->
+
 ### Governance perspective
 
 ```
@@ -286,7 +298,7 @@ Governance perspective capabilities
 
 > "We must ensure that skills and processes align IT strategy and goals with business strategy and goals so the organization can maximize the business value of its IT investment and minimize business risks."
 > — CIO, program managers, enterprise archtects, business analysis, and portfolio managers
->
+
 ### Platform perspective
 
 ```
@@ -305,7 +317,7 @@ Platform perspective capabilities
 
 > "We must understand and communicate the nature of IT systems and their relationships. We must be able to describe the architecture of the target state environment in details."
 > — CTO, IT managers, and solutions architects
->
+
 ### Security perspective
 
 ```
@@ -323,10 +335,10 @@ Security perspective capabilities
 
 > "We must ensure that the organization meets its security objectives."
 > — CISO, IT security managers, and IT security analysis
->
+
 ### Operations perspective
 
- ```
+```
 +------------------------------------------------+
 | OPERATIONS                                     |
 +------------------------------------------------+
@@ -339,11 +351,11 @@ Security perspective capabilities
 | IT service catalog                             |
 +------------------------------------------------+
 Operations perspective capabilites
- ```
+```
 
 > We align with and support the operations of the business, and define how day-to-day, quarter-to-quarter, and year-to-year business will be conducted.
 > — IT operations managers and IT support managers
->
+
 ## 5. Module Summary
 
 In summary, in this module you learned how to:
@@ -355,8 +367,12 @@ In summary, in this module you learned how to:
 
 ### Sample exam question
 
-Why is AWS more economical than traditional data centers for applications with variable compute workloads?  
-A. Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis  
-B. Customers retain full administative access to their Amazon EC2 instances  
-C. Amazon EC2 instances can be launched on-demand when needed ✅  
+Why is AWS more economical than traditional data centers for applications with variable compute workloads?
+
+A. Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis
+
+B. Customers retain full administative access to their Amazon EC2 instances
+
+C. Amazon EC2 instances can be launched on-demand when needed ✅
+
 D. Customers can permanently run enough instances to handle peak workloads

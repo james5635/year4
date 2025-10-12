@@ -86,6 +86,7 @@ SaaS examples:
 - AWS Trusted Advisor
 - AWS Shield
 - Amazon Chime
+
 Infrastructure as a service (Iaas)
 
 - Customer has more flexibility over configuring networking and storage settings

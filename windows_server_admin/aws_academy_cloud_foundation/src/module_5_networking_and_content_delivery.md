@@ -14,6 +14,7 @@
 ### IPv4 and IPv6 addresses
 
 IPv4 (32-bit) address: 192.0.2.0  
+
 IPv6 (128-bit) address: 2600:1f18:22ba:8c00:ba86:a05e:a5ba:00FF
 
 ### Classless Inter-Domain Routing (CIDR)
