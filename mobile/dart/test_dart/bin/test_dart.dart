@@ -223,45 +223,87 @@ import 'package:test_dart/test_dart.dart' as test_dart;
 //   a.speak();
 // }
 
-// mixin Speakable on Object {
-mixin Speakable {
-  speak() {
-    print("I am speaking");
-  }
+// // mixin Speakable on Object {
+// mixin Speakable {
+//   speak() {
+//     print("I am speaking");
+//   }
+//
+//   say();
+// }
+//
+// class Animal with Speakable {
+//   int? age;
+//   Animal(this.age);
+//   @override
+//   say() {
+//     print("I am Animal. I say 'hello world'");
+//   }
+// }
+//
+// class Person implements Speakable {
+//   int? age;
+//   Person(this.age);
+//   @override
+//   speak() {
+//     print("I am Person, Speaking");
+//   }
+//
+//   @override
+//   say() {
+//     print("I am Person, saying");
+//   }
+// }
+//
+// void testMixin() {
+//   Speakable a = Animal(11);
+//   a.speak();
+//   a.say();
+//   Speakable b = Person(23);
+//   b.speak();
+//   b.say();
+// }
 
-  say();
+mixin Drinkable on Person {
+  drink() {
+    print("I am drinking.");
+  }
 }
 
-class Animal with Speakable {
+class Person {
+  String? name;
+  Person(this.name);
+}
+
+class Student extends Person with Drinkable {
   int? age;
-  Animal(this.age);
+  Student(super.name, this.age);
   @override
-  say() {
-    print("I am Animal. I say 'hello world'");
+  drink() {
+    print("I am student, drinking");
   }
 }
 
-class Person implements Speakable {
-  int? age;
-  Person(this.age);
-  @override
-  speak() {
-    print("I am Person, Speaking");
-  }
-
-  @override
-  say() {
-    print("I am Person, saying");
-  }
+class Farmer extends Person with Drinkable {
+  String? birth;
+  Farmer(super.name, this.birth);
 }
 
-void testMixin() {
-  Speakable a = Animal(11);
-  a.speak();
-  a.say();
-  Speakable b = Person(23);
-  b.speak();
-  b.say();
+// class Product{
+//   int? id;
+//   Product(this.id);
+// }
+// // error
+// class Computer extends Product with Drinkable{
+//   String? name;
+//   Computer(this.name, super.id);
+// }
+
+testMixinOn() {
+  Drinkable d = Student("jame", 22);
+  d.drink();
+  Drinkable e = Farmer("mike", "22/1/2009");
+  e.drink();
 }
 
 void main(List<String> arguments) {
@@ -271,5 +313,6 @@ void main(List<String> arguments) {
   // testAbstractInterfaceClass();
   // testFinalClass();
   // testSealedClass();
-  testMixin();
+  // testMixin();
+  testMixinOn();
 }
