@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TFPrM6fu63Q=",
+  "dgSpecHash": "bB8X4TaDK/Q=",
   "success": true,
   "projectFilePath": "/home/jame/Desktop/coding/year4/OOAD/test/test.csproj",
   "expectedPackageFiles": [
-    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
   ],
   "logs": []
 }

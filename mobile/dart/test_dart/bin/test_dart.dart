@@ -7,9 +7,9 @@
  * - final class
  * - sealed class
  * - mixin
- * - extends => is-a relationship
- * - implements => can-do or has-a relationship
- * - with => share-a relationship
+ * - extends => is-a relationship with inheritance
+ * - implements => is-a relationship with implementation
+ * - with => is-a relationship with mixing
  */
 import 'package:test_dart/test_dart.dart' as test_dart;
 

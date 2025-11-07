@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AJswvvKTEnI=",
+  "dgSpecHash": "EOsJPVlm/wc=",
   "success": true,
   "projectFilePath": "/home/jame/Desktop/coding/year4/OOAD/practice_4/practice_4.csproj",
   "expectedPackageFiles": [
-    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
   ],
   "logs": []
 }
