@@ -1,0 +1,400 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+% Dart code styling
+\lstdefinestyle{dart}{
+    language=Java,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{red},
+    commentstyle=\color{gray}\itshape,
+    numbers=none,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{gray!10}
+}
+
+\lstset{style=dart}
+
+\title{\textbf{Dart Programming Quiz}}
+\author{}
+% \author{sou chanrojame}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Part 1: Multiple Choice Questions (QCM)}
+
+\begin{enumerate}
+
+	\item What is the correct way to declare a constant value in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{var pi = 3.14;}
+		      \item \texttt{final pi = 3.14;}
+		      \item \texttt{const pi = 3.14;}
+		      \item \texttt{let pi = 3.14;}
+	      \end{enumerate}
+
+	\item Which of the following is NOT a valid Dart data type?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{int}
+		      \item \texttt{double}
+		      \item \texttt{decimal}
+		      \item \texttt{String}
+	      \end{enumerate}
+
+	\item What will the following code print?
+	      \begin{lstlisting}
+void main() {
+  var a = 5;
+  var b = 2;
+  print(a ~/ b);
+}
+\end{lstlisting}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{2.5}
+		      \item \texttt{2}
+		      \item \texttt{3}
+		      \item \texttt{Error}
+	      \end{enumerate}
+
+	\item How do you define a named parameter in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{void greet(String name) \{\}}
+		      \item \texttt{void greet(\{String name\}) \{\}}
+		      \item \texttt{void greet([String name]) \{\}}
+		      \item \texttt{void greet(*String name*) \{\}}
+	      \end{enumerate}
+
+	\item Which of the following is correct for creating a List in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{var list = [1, 2, 3];}
+		      \item \texttt{var list = (1, 2, 3);}
+		      \item \texttt{var list = \{1, 2, 3\};}
+		      \item \texttt{var list = <1, 2, 3>;}
+	      \end{enumerate}
+
+	\item What is the output of this code?
+	      \begin{lstlisting}
+void main() {
+  var name;
+  print(name ?? "Guest");
+}
+\end{lstlisting}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{null}
+		      \item \texttt{Guest}
+		      \item \texttt{""} (empty string)
+		      \item \texttt{Error}
+	      \end{enumerate}
+
+	\item What is the default value of an uninitialized \texttt{int} variable in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item 0
+		      \item \texttt{null}
+		      \item undefined
+		      \item 1
+	      \end{enumerate}
+
+	\item Which of the following is true about \texttt{final} in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item Must be assigned at compile time
+		      \item Can only be assigned once at runtime
+		      \item Can be reassigned multiple times
+		      \item Must be mutable
+	      \end{enumerate}
+
+	\item Which operator is used for \textbf{type casting} in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{as}
+		      \item \texttt{is}
+		      \item \texttt{is!}
+		      \item \texttt{->}
+	      \end{enumerate}
+
+	\item What is the output?
+	      \begin{lstlisting}
+void main() {
+  print(3 ~/ 2);
+}
+\end{lstlisting}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item 1.5
+		      \item 1
+		      \item 2
+		      \item Error
+	      \end{enumerate}
+
+	\item How do you declare an optional positional parameter?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{void f(int x)}
+		      \item \texttt{void f([int x])}
+		      \item \texttt{void f(\{int x\})}
+		      \item \texttt{void f(*int x*)}
+	      \end{enumerate}
+
+	\item Which collection in Dart is \textbf{unordered and does not allow duplicates}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{List}
+		      \item \texttt{Map}
+		      \item \texttt{Set}
+		      \item \texttt{Queue}
+	      \end{enumerate}
+
+	\item How do you create a Map in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{var m = \{1, 2\}}
+		      \item \texttt{var m = \{1: 'one', 2: 'two'\}}
+		      \item \texttt{var m = [1: 'one', 2: 'two']}
+		      \item \texttt{var m = Map(1,2)}
+	      \end{enumerate}
+
+	\item How do you check if a variable is null?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{x == null}
+		      \item \texttt{x ? null}
+		      \item \texttt{x ?? null}
+		      \item \texttt{x.isNull()}
+	      \end{enumerate}
+
+	\item Which keyword is used to create an asynchronous function?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{async}
+		      \item \texttt{await}
+		      \item \texttt{future}
+		      \item \texttt{yield}
+	      \end{enumerate}
+
+	\item What is the output?
+	      \begin{lstlisting}
+void main() {
+  List<int> l = [1,2,3];
+  print(l.contains(2));
+}
+\end{lstlisting}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item 0
+		      \item true
+		      \item 2
+		      \item false
+	      \end{enumerate}
+
+	\item How do you define a \textbf{constant constructor} in a class?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{const ClassName()}
+		      \item \texttt{ClassName.const()}
+		      \item \texttt{final ClassName()}
+		      \item \texttt{static ClassName()}
+	      \end{enumerate}
+
+	\item Which of the following is a \textbf{null-aware operator} in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{?.}
+		      \item \texttt{!}
+		      \item \texttt{==}
+		      \item \texttt{=>}
+	      \end{enumerate}
+
+	\item Which of these is valid string interpolation?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{"Hello \$name"}
+		      \item \texttt{"Hello \{name\}"}
+		      \item \texttt{"Hello + name"}
+		      \item \texttt{"Hello \#name"}
+	      \end{enumerate}
+
+	\item How do you define a \textbf{getter} in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{int get age => \_age;}
+		      \item \texttt{int age() => \_age;}
+		      \item \texttt{get int age => \_age;}
+		      \item \texttt{getter int age => \_age;}
+	      \end{enumerate}
+
+	\item What is the type of \texttt{var x = 3.14;}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{int}
+		      \item \texttt{double}
+		      \item \texttt{num}
+		      \item \texttt{var}
+	      \end{enumerate}
+
+	\item How do you catch exceptions in Dart?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{try \{ ... \} catch(e) \{ ... \}}
+		      \item \texttt{try \{ ... \} except(e) \{ ... \}}
+		      \item \texttt{try \{ ... \} error(e) \{ ... \}}
+		      \item \texttt{catch \{ ... \}}
+	      \end{enumerate}
+
+	\item What is the output?
+	      \begin{lstlisting}
+void main() {
+  var l = [1,2,3];
+  l.add(4);
+  print(l.length);
+}
+\end{lstlisting}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item 3
+		      \item 4
+		      \item Error
+		      \item 0
+	      \end{enumerate}
+
+	\item Which keyword makes a class \textbf{abstract}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{abstract}
+		      \item \texttt{interface}
+		      \item \texttt{final}
+		      \item \texttt{virtual}
+	      \end{enumerate}
+
+	\item How do you mark a parameter as \textbf{required} in a named parameter?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{void f(\{required int x\}) \{\}}
+		      \item \texttt{void f([required int x]) \{\}}
+		      \item \texttt{void f(int x!) \{\}}
+		      \item \texttt{void f(required int x) \{\}}
+	      \end{enumerate}
+
+	\item How do you call a superclass constructor?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{super()}
+		      \item \texttt{base()}
+		      \item \texttt{parent()}
+		      \item \texttt{this()}
+	      \end{enumerate}
+
+	\item How do you create a \textbf{constant list}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{var l = [1,2,3];}
+		      \item \texttt{final l = [1,2,3];}
+		      \item \texttt{const l = [1,2,3];}
+		      \item \texttt{List l = [1,2,3];}
+	      \end{enumerate}
+
+	\item What is the type of \texttt{List<int>}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{dynamic}
+		      \item \texttt{generic list of int}
+		      \item \texttt{Set}
+		      \item \texttt{Map}
+	      \end{enumerate}
+
+	\item Which function executes \textbf{after a future completes}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{then()}
+		      \item \texttt{catch()}
+		      \item \texttt{async()}
+		      \item \texttt{await()}
+	      \end{enumerate}
+
+	\item Which of the following \textbf{iterates a map} correctly?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{for(var k in map) \{\}}
+		      \item \texttt{for(var e in map.entries) \{\}}
+		      \item \texttt{map.foreach((k,v)\{\});}
+		      \item \texttt{map.forin()}
+	      \end{enumerate}
+
+	\item What is printed?
+	      \begin{lstlisting}
+void main() {
+  var s = "Dart";
+  print(s.substring(1,3));
+}
+\end{lstlisting}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{Da}
+		      \item \texttt{ar}
+		      \item \texttt{rt}
+		      \item \texttt{Dar}
+	      \end{enumerate}
+
+	\item How do you make a variable \textbf{late-initialized}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{late int x;}
+		      \item \texttt{final x;}
+		      \item \texttt{var x;}
+		      \item \texttt{int? x;}
+	      \end{enumerate}
+
+	\item Which statement is true about \textbf{extension methods}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item Can add methods to existing classes
+		      \item Can override private fields
+		      \item Can change the original class
+		      \item Only works with List
+	      \end{enumerate}
+
+	\item Which keyword is used to \textbf{pause a function until a Future completes}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{await}
+		      \item \texttt{async}
+		      \item \texttt{then}
+		      \item \texttt{yield}
+	      \end{enumerate}
+
+	\item Which of the following \textbf{creates a set of integers}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{var s = \{1,2,3\};}
+		      \item \texttt{var s = [1,2,3];}
+		      \item \texttt{var s = (1,2,3);}
+		      \item \texttt{var s = <1,2,3>;}
+	      \end{enumerate}
+
+	\item Which of these is a valid \textbf{cascade operator usage}?
+	      \begin{enumerate}[label=\Alph*)]
+		      \item \texttt{myList..add(1)..add(2);}
+		      \item \texttt{myList.>add(1).>add(2);}
+		      \item \texttt{myList::add(1)::add(2);}
+		      \item \texttt{myList**add(1)**add(2);}
+	      \end{enumerate}
+
+\end{enumerate}
+
+\newpage
+
+\section*{Part 2: Exercises}
+
+\begin{enumerate}
+
+	\item[\textbf{E1.}] Write a Dart function \texttt{factorial(int n)} that returns the factorial of \texttt{n} using recursion.
+
+	\item[\textbf{E2.}] Create a Dart program that reads a list of integers and prints the \textbf{largest number}.
+
+	\item[\textbf{E3.}] Write a Dart class \texttt{Person} with \texttt{name} and \texttt{age} fields, and a method \texttt{introduce()} that prints: \texttt{"Hi, my name is <name> and I am <age> years old."}.
+
+	\item[\textbf{E4.}] Implement a Dart function \texttt{isPalindrome(String s)} that checks if a string is a palindrome (reads the same backward as forward).
+
+	\item[\textbf{E5.}] Write a Dart function that \textbf{reverses a List} of integers.
+
+	\item[\textbf{E6.}] Create a Dart program that counts the \textbf{number of vowels} in a string.
+
+	\item[\textbf{E7.}] Implement a Dart class \texttt{Rectangle} with \texttt{width} and \texttt{height}, and a method \texttt{area()} that returns the area.
+
+	\item[\textbf{E8.}] Write a Dart function \texttt{fibonacci(int n)} that returns the nth Fibonacci number \textbf{recursively}.
+
+	\item[\textbf{E9.}] Create a Dart program that \textbf{sorts a list of strings alphabetically}.
+
+	\item[\textbf{E10.}] Write a Dart class \texttt{BankAccount} with methods \texttt{deposit(amount)} and \texttt{withdraw(amount)} and a \texttt{balance} field.
+
+	\item[\textbf{E11.}] Implement a Dart function that \textbf{removes duplicates from a list}.
+
+	\item[\textbf{E12.}] Write a Dart program that reads a list of numbers and prints the \textbf{average}.
+
+	\item[\textbf{E13.}] Create a Dart class \texttt{Car} with \texttt{brand} and \texttt{year} fields, and override the \texttt{toString()} method.
+
+	\item[\textbf{E14.}] Write a Dart function that \textbf{checks if a number is prime}.
+
+\end{enumerate}
+
+
+\end{document}

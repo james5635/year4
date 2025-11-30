@@ -1,0 +1,182 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{listings}
+\newcommand{\passthrough}[1]{#1}
+\lstset{defaultdialect=[5.3]Lua}
+\lstset{defaultdialect=[x86masm]Assembler}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\lstdefinestyle{dart}{showstringspaces=false,language=Java,basicstyle=\ttfamily\small,keywordstyle=\color{blue}\bfseries,stringstyle=\color{red},commentstyle=\color{gray}\itshape,numbers=none,breaklines=true,frame=single,backgroundcolor=\color{gray!10}}
+\lstset{style=dart}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Dart Programming Quiz Answer},
+  pdfauthor={Sou Chanrojame},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{\textbf{Dart Programming Quiz Answer}}
+\author{Sou Chanrojame}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Part 1: Multiple Choice Questions
+(MCQ)}\label{part-1-multiple-choice-questions-mcq}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  C
+\item
+  C
+\item
+  B
+\item
+  B
+\item
+  A
+\item
+  B
+\item
+  C
+\item
+  A
+\item
+  A
+\item
+  1
+\item
+  B
+\item
+  C
+\item
+  B
+\item
+  A
+\item
+  A
+\item
+  B
+\item
+  A
+\item
+  A
+\item
+  A
+\item
+  A
+\item
+  C
+\item
+  A
+\item
+  B
+\item
+  A
+\item
+  A
+\item
+  B
+\item
+  C
+\item
+  B
+\item
+  A
+\item
+  C
+\item
+  B
+\item
+  A
+\item
+  A
+\item
+  A
+\item
+  A
+\item
+  A
+\end{enumerate}
+
+\section{Part 2: Exercises}\label{part-2-exercises}
+
+\subsection{E1}\label{e1}
+
+\begin{lstlisting}
+int factorial(int n){
+  if (n == 0) return 1;
+  return n * factorial(n-1);
+}
+\end{lstlisting}
+
+\begin{lstlisting}
+int factorial(int n) => n == 0 ? 1 : n * factorial(n-1);
+\end{lstlisting}
+
+\subsection{E2}\label{e2}
+
+\begin{lstlisting}
+void main(){
+  int x = [1,2,3,4];
+  int max = x.reduce((a,b) => a > b ? a : b);
+  print(max);
+}
+\end{lstlisting}
+
+\subsection{E3}\label{e3}
+
+\begin{lstlisting}
+class Person{
+  String name;
+  int age;
+  Person(this.name, this.age);
+  void introduce() => print("Hi, my name is $name and I am $age year old.");
+}
+\end{lstlisting}
+
+
+\end{document}

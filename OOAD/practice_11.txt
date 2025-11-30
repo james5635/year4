@@ -1,0 +1,43 @@
+C# Skeletal Code
+==============
+
+
+public interface IAdvancedMediaPlayer {
+  string PlayVlc(string fileName);
+  string PlayMp4(string fileName);
+}
+public class VlcPlayer : IAdvancedMediaPlayer {
+  public string PlayVlc(string fileName) {
+    ....
+  }
+  public string PlayMp4(string fileName) { ..... }
+}
+public class Mp4Player : IAdvancedMediaPlayer {
+  public string PlayVlc(string fileName) { .... }
+  public string PlayMp4(string fileName) { ..... }
+}
+public interface IMediaPlayer {
+  string Play(string audioType, string fileName);
+}
+public class MediaAdapter : IMediaPlayer {
+  private IAdvancedMediaPlayer advancedMusicPlayer;
+  public MediaAdapter(string audioType) {.....}
+  public string Play(string audioType, string fileName) {
+    .....
+    advancedMusicPlayer.PlayVlc(fileName);
+    advancedMusicPlayer.PlayMp4(fileName);
+    .....
+  }
+}
+public class AudioPlayer : IMediaPlayer { 
+  private MediaAdapter mediaAdapter;
+  public string Play(string audioType, string fileName) {
+    .....
+    mediaAdapter.Play(audiotype, fileName);
+    ....
+  }
+}
+public class Client {
+  private AudioPlayer audioPlayer;
+  ......
+}

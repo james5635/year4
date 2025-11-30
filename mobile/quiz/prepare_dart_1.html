@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dart Programming Exam</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .no-print { display: none; }
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2980b9;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        .question strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .options {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        
+        .option {
+            margin: 5px 0;
+            padding: 5px 0;
+        }
+        
+        code {
+            background-color: #e8f4f8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        pre {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+        
+        pre code {
+            background-color: transparent;
+            color: #ecf0f1;
+            padding: 0;
+        }
+        
+        .exercise {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+        }
+        
+        .exercise strong {
+            color: #856404;
+        }
+        
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        
+        .print-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-btn no-print" onclick="window.print()">🖨️ Print/Save as PDF</button>
+    
+    <h1>Dart Programming Exam</h1>
+    
+    <h2>Part 1: Multiple Choice Questions (QCM)</h2>
+    
+    <div class="question">
+        <strong>Q1. What is the correct way to declare a constant value in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>var pi = 3.14;</code></div>
+            <div class="option">B) <code>final pi = 3.14;</code></div>
+            <div class="option">C) <code>const pi = 3.14;</code></div>
+            <div class="option">D) <code>let pi = 3.14;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q2. Which of the following is NOT a valid Dart data type?</strong>
+        <div class="options">
+            <div class="option">A) <code>int</code></div>
+            <div class="option">B) <code>double</code></div>
+            <div class="option">C) <code>decimal</code></div>
+            <div class="option">D) <code>String</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q3. What will the following code print?</strong>
+        <pre><code>void main() {
+  var a = 5;
+  var b = 2;
+  print(a ~/ b);
+}</code></pre>
+        <div class="options">
+            <div class="option">A) <code>2.5</code></div>
+            <div class="option">B) <code>2</code></div>
+            <div class="option">C) <code>3</code></div>
+            <div class="option">D) <code>Error</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q4. How do you define a named parameter in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>void greet(String name) {}</code></div>
+            <div class="option">B) <code>void greet({String name}) {}</code></div>
+            <div class="option">C) <code>void greet([String name]) {}</code></div>
+            <div class="option">D) <code>void greet(*String name*) {}</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q5. Which of the following is correct for creating a List in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>var list = [1, 2, 3];</code></div>
+            <div class="option">B) <code>var list = (1, 2, 3);</code></div>
+            <div class="option">C) <code>var list = {1, 2, 3};</code></div>
+            <div class="option">D) <code>var list = &lt;1, 2, 3&gt;;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q6. What is the output of this code?</strong>
+        <pre><code>void main() {
+  var name;
+  print(name ?? "Guest");
+}</code></pre>
+        <div class="options">
+            <div class="option">A) <code>null</code></div>
+            <div class="option">B) <code>Guest</code></div>
+            <div class="option">C) <code>""</code> (empty string)</div>
+            <div class="option">D) <code>Error</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q7. What is the default value of an uninitialized <code>int</code> variable in Dart?</strong>
+        <div class="options">
+            <div class="option">A) 0</div>
+            <div class="option">B) <code>null</code></div>
+            <div class="option">C) undefined</div>
+            <div class="option">D) 1</div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q8. Which of the following is true about <code>final</code> in Dart?</strong>
+        <div class="options">
+            <div class="option">A) Must be assigned at compile time</div>
+            <div class="option">B) Can only be assigned once at runtime</div>
+            <div class="option">C) Can be reassigned multiple times</div>
+            <div class="option">D) Must be mutable</div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q9. Which operator is used for type casting in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>as</code></div>
+            <div class="option">B) <code>is</code></div>
+            <div class="option">C) <code>is!</code></div>
+            <div class="option">D) <code>-&gt;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q10. What is the output?</strong>
+        <pre><code>void main() {
+  print(3 ~/ 2);
+}</code></pre>
+        <div class="options">
+            <div class="option">A) 1.5</div>
+            <div class="option">B) 1</div>
+            <div class="option">C) 2</div>
+            <div class="option">D) Error</div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q11. How do you declare an optional positional parameter?</strong>
+        <div class="options">
+            <div class="option">A) <code>void f(int x)</code></div>
+            <div class="option">B) <code>void f([int x])</code></div>
+            <div class="option">C) <code>void f({int x})</code></div>
+            <div class="option">D) <code>void f(*int x*)</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q12. Which collection in Dart is unordered and does not allow duplicates?</strong>
+        <div class="options">
+            <div class="option">A) <code>List</code></div>
+            <div class="option">B) <code>Map</code></div>
+            <div class="option">C) <code>Set</code></div>
+            <div class="option">D) <code>Queue</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q13. How do you create a Map in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>var m = {1, 2}</code></div>
+            <div class="option">B) <code>var m = {1: 'one', 2: 'two'}</code></div>
+            <div class="option">C) <code>var m = [1: 'one', 2: 'two']</code></div>
+            <div class="option">D) <code>var m = Map(1,2)</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q14. How do you check if a variable is null?</strong>
+        <div class="options">
+            <div class="option">A) <code>x == null</code></div>
+            <div class="option">B) <code>x ? null</code></div>
+            <div class="option">C) <code>x ?? null</code></div>
+            <div class="option">D) <code>x.isNull()</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q15. Which keyword is used to create an asynchronous function?</strong>
+        <div class="options">
+            <div class="option">A) <code>async</code></div>
+            <div class="option">B) <code>await</code></div>
+            <div class="option">C) <code>future</code></div>
+            <div class="option">D) <code>yield</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q16. What is the output?</strong>
+        <pre><code>void main() {
+  List&lt;int&gt; l = [1,2,3];
+  print(l.contains(2));
+}</code></pre>
+        <div class="options">
+            <div class="option">A) 0</div>
+            <div class="option">B) true</div>
+            <div class="option">C) 2</div>
+            <div class="option">D) false</div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q17. How do you define a constant constructor in a class?</strong>
+        <div class="options">
+            <div class="option">A) <code>const ClassName()</code></div>
+            <div class="option">B) <code>ClassName.const()</code></div>
+            <div class="option">C) <code>final ClassName()</code></div>
+            <div class="option">D) <code>static ClassName()</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q18. Which of the following is a null-aware operator in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>?.</code></div>
+            <div class="option">B) <code>!</code></div>
+            <div class="option">C) <code>==</code></div>
+            <div class="option">D) <code>=&gt;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q19. Which of these is valid string interpolation?</strong>
+        <div class="options">
+            <div class="option">A) <code>"Hello $name"</code></div>
+            <div class="option">B) <code>"Hello {name}"</code></div>
+            <div class="option">C) <code>"Hello + name"</code></div>
+            <div class="option">D) <code>"Hello #name"</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q20. How do you define a getter in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>int get age =&gt; _age;</code></div>
+            <div class="option">B) <code>int age() =&gt; _age;</code></div>
+            <div class="option">C) <code>get int age =&gt; _age;</code></div>
+            <div class="option">D) <code>getter int age =&gt; _age;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q21. What is the type of <code>var x = 3.14;</code>?</strong>
+        <div class="options">
+            <div class="option">A) <code>int</code></div>
+            <div class="option">B) <code>double</code></div>
+            <div class="option">C) <code>num</code></div>
+            <div class="option">D) <code>var</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q22. How do you catch exceptions in Dart?</strong>
+        <div class="options">
+            <div class="option">A) <code>try { ... } catch(e) { ... }</code></div>
+            <div class="option">B) <code>try { ... } except(e) { ... }</code></div>
+            <div class="option">C) <code>try { ... } error(e) { ... }</code></div>
+            <div class="option">D) <code>catch { ... }</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q23. What is the output?</strong>
+        <pre><code>void main() {
+  var l = [1,2,3];
+  l.add(4);
+  print(l.length);
+}</code></pre>
+        <div class="options">
+            <div class="option">A) 3</div>
+            <div class="option">B) 4</div>
+            <div class="option">C) Error</div>
+            <div class="option">D) 0</div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q24. Which keyword makes a class abstract?</strong>
+        <div class="options">
+            <div class="option">A) <code>abstract</code></div>
+            <div class="option">B) <code>interface</code></div>
+            <div class="option">C) <code>final</code></div>
+            <div class="option">D) <code>virtual</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q25. How do you mark a parameter as required in a named parameter?</strong>
+        <div class="options">
+            <div class="option">A) <code>void f({required int x}) {}</code></div>
+            <div class="option">B) <code>void f([required int x]) {}</code></div>
+            <div class="option">C) <code>void f(int x!) {}</code></div>
+            <div class="option">D) <code>void f(required int x) {}</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q26. How do you call a superclass constructor?</strong>
+        <div class="options">
+            <div class="option">A) <code>super()</code></div>
+            <div class="option">B) <code>base()</code></div>
+            <div class="option">C) <code>parent()</code></div>
+            <div class="option">D) <code>this()</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q27. How do you create a constant list?</strong>
+        <div class="options">
+            <div class="option">A) <code>var l = [1,2,3];</code></div>
+            <div class="option">B) <code>final l = [1,2,3];</code></div>
+            <div class="option">C) <code>const l = [1,2,3];</code></div>
+            <div class="option">D) <code>List l = [1,2,3];</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q28. What is the type of <code>List&lt;int&gt;</code>?</strong>
+        <div class="options">
+            <div class="option">A) <code>dynamic</code></div>
+            <div class="option">B) <code>generic list of int</code></div>
+            <div class="option">C) <code>Set</code></div>
+            <div class="option">D) <code>Map</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q29. Which function executes after a future completes?</strong>
+        <div class="options">
+            <div class="option">A) <code>then()</code></div>
+            <div class="option">B) <code>catch()</code></div>
+            <div class="option">C) <code>async()</code></div>
+            <div class="option">D) <code>await()</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q30. Which of the following iterates a map correctly?</strong>
+        <div class="options">
+            <div class="option">A) <code>for(var k in map) {}</code></div>
+            <div class="option">B) <code>for(var e in map.entries) {}</code></div>
+            <div class="option">C) <code>map.foreach((k,v){});</code></div>
+            <div class="option">D) <code>map.forin()</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q31. What is printed?</strong>
+        <pre><code>void main() {
+  var s = "Dart";
+  print(s.substring(1,3));
+}</code></pre>
+        <div class="options">
+            <div class="option">A) <code>Da</code></div>
+            <div class="option">B) <code>ar</code></div>
+            <div class="option">C) <code>rt</code></div>
+            <div class="option">D) <code>Dar</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q32. How do you make a variable late-initialized?</strong>
+        <div class="options">
+            <div class="option">A) <code>late int x;</code></div>
+            <div class="option">B) <code>final x;</code></div>
+            <div class="option">C) <code>var x;</code></div>
+            <div class="option">D) <code>int? x;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q33. Which statement is true about extension methods?</strong>
+        <div class="options">
+            <div class="option">A) Can add methods to existing classes</div>
+            <div class="option">B) Can override private fields</div>
+            <div class="option">C) Can change the original class</div>
+            <div class="option">D) Only works with List</div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q34. Which keyword is used to pause a function until a Future completes?</strong>
+        <div class="options">
+            <div class="option">A) <code>await</code></div>
+            <div class="option">B) <code>async</code></div>
+            <div class="option">C) <code>then</code></div>
+            <div class="option">D) <code>yield</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q35. Which of the following creates a set of integers?</strong>
+        <div class="options">
+            <div class="option">A) <code>var s = {1,2,3};</code></div>
+            <div class="option">B) <code>var s = [1,2,3];</code></div>
+            <div class="option">C) <code>var s = (1,2,3);</code></div>
+            <div class="option">D) <code>var s = &lt;1,2,3&gt;;</code></div>
+        </div>
+    </div>
+    
+    <div class="question">
+        <strong>Q36. Which of these is a valid cascade operator usage?</strong>
+        <div class="options">
+            <div class="option">A) <code>myList..add(1)..add(2);</code></div>
+            <div class="option">B) <code>myList.&gt;add(1).&gt;add(2);</code></div>
+            <div class="option">C) <code>myList::add(1)::add(2);</code></div>
+            <div class="option">D) <code>myList**add(1)**add(2);</code></div>
+        </div>
+    </div>
+    
+    <h2>Part 2: Exercises</h2>
+    
+    <div class="exercise">
+        <strong>E1.</strong> Write a Dart function <code>factorial(int n)</code> that returns the factorial of <code>n</code> using recursion.
+    </div>
+    
+    <div class="exercise">
+        <strong>E2.</strong> Create a Dart program that reads a list of integers and prints the <strong>largest number</strong>.
+    </div>
+    
+    <div class="exercise">
+        <strong>E3.</strong> Write a Dart class <code>Person</code> with <code>name</code> and <code>age</code> fields, and a method <code>introduce()</code> that prints: <code>"Hi, my name is &lt;name&gt; and I am &lt;age&gt; years old."</code>
+    </div>
+    
+    <div class="exercise">
+        <strong>E4.</strong> Implement a Dart function <code>isPalindrome(String s)</code> that checks if a string is a palindrome (reads the same backward as forward).
+    </div>
+    
+    <div class="exercise">
+        <strong>E5.</strong> Write a Dart function that <strong>reverses a List</strong> of integers.
+    </div>
+    
+    <div class="exercise">
+        <strong>E6.</strong> Create a Dart program that counts the <strong>number of vowels</strong> in a string.
+    </div>
+    
+    <div class="exercise">
+        <strong>E7.</strong> Implement a Dart class <code>Rectangle</code> with <code>width</code> and <code>height</code>, and a method <code>area()</code> that returns the area.
+    </div>
+    
+    <div class="exercise">
+        <strong>E8.</strong> Write a Dart function <code>fibonacci(int n)</code> that returns the nth Fibonacci number <strong>recursively</strong>.
+    </div>
+    
+    <div class="exercise">
+        <strong>E9.</strong> Create a Dart program that <strong>sorts a list of strings alphabetically</strong>.
+    </div>
+    
+    <div class="exercise">
+        <strong>E10.</strong> Write a Dart class <code>BankAccount</code> with methods <code>deposit(amount)</code> and <code>withdraw(amount)</code> and a <code>balance</code> field.
+    </div>
+    
+    <div class="exercise">
+        <strong>E11.</strong> Implement a Dart function that <strong>removes duplicates from a list</strong>.
+    </div>
+    
+    <div class="exercise">
+        <strong>E12.</strong> Write a Dart program that reads a list of numbers and prints the <strong>average</strong>.
+    </div>
+    
+    <div class="exercise">
+        <strong>E13.</strong> Create a Dart class <code>Car</code> with <code>brand</code> and <code>year</code> fields, and override the <code>toString()</code> method.
+    </div>
+    
+    <div class="exercise">
+        <strong>E14.</strong> Write a Dart function that <strong>checks if a number is prime</strong>.
+    </div>
+</body>
+</html>
