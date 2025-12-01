@@ -74,6 +74,25 @@ void main(){
 }
 
 ```
+```dart
+import 'dart:math'
+void main(){
+  int x = [1,2,3,4];
+  int max = x.reduce(max);
+  print(max);
+}
+
+```
+
+```dart
+// bonus: finding sum
+void main(){
+  int x = [1,2,3,4];
+  int sum = x.reduce((a,b) => a+b);
+  print(sum);
+}
+
+```
 
 ## E3
 ```dart
