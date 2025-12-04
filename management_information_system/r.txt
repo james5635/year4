@@ -1,0 +1,5 @@
+operation => doing thing in business
+manage data by dashboard, report => business intelligence
+business = organization that provide services, product and get profit
+technology := mobile device, big data, cloud computing
+
