@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CJferyf8TZs=",
+  "dgSpecHash": "gccJKAqDUg0=",
   "success": true,
   "projectFilePath": "/home/jame/Desktop/coding/year4/OOAD/practice_8/practice_8.csproj",
   "expectedPackageFiles": [
-    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+    "/home/jame/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "/home/jame/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.11/microsoft.netcore.app.host.linux-x64.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

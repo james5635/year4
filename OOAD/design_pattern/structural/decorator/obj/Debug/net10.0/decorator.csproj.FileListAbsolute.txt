@@ -1,0 +1,15 @@
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.GeneratedMSBuildEditorConfig.editorconfig
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.AssemblyInfoInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.AssemblyInfo.cs
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.csproj.CoreCompileInputs.cache
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.sourcelink.json
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/bin/Debug/net10.0/decorator
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/bin/Debug/net10.0/decorator.deps.json
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/bin/Debug/net10.0/decorator.runtimeconfig.json
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/bin/Debug/net10.0/decorator.dll
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/bin/Debug/net10.0/decorator.pdb
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.dll
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/refint/decorator.dll
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.pdb
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/decorator.genruntimeconfig.cache
+/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/obj/Debug/net10.0/ref/decorator.dll

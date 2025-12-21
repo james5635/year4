@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G5vcpfizybk=",
+  "dgSpecHash": "uPcM4VI4wtg=",
   "success": true,
   "projectFilePath": "/home/jame/Desktop/coding/year4/OOAD/test2/test2.csproj",
   "expectedPackageFiles": [
-    "/home/jame/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
-    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
-    "/home/jame/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.20/microsoft.netcore.app.host.linux-x64.8.0.20.nupkg.sha512"
+    "/home/jame/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/jame/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.22/microsoft.netcore.app.host.linux-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

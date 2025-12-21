@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JauLlPA1aZ8=",
+  "success": true,
+  "projectFilePath": "/home/jame/Desktop/coding/year4/OOAD/design_pattern/structural/decorator/decorator.csproj",
+  "expectedPackageFiles": [
+    "/home/jame/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
