@@ -1,0 +1,36 @@
+@startuml
+' Abstraction
+abstract class Payment {
+    -gateway: IPaymentGateway
+    +Payment(gateway: IPaymentGateway)
+    +Pay(amount: decimal)
+}
+
+' Refined Abstraction
+class OnlinePayment {
+    +OnlinePayment(gateway: IPaymentGateway)
+    +Pay(amount: decimal)
+}
+
+' Implementation
+interface IPaymentGateway {
+    +ProcessPayment(amount: decimal)
+}
+
+' Concrete Implementations
+class PayPalGateway {
+    +ProcessPayment(amount: decimal)
+}
+
+class StripeGateway {
+    +ProcessPayment(amount: decimal)
+}
+
+' Relationships
+Payment <|.. OnlinePayment
+
+IPaymentGateway <|.. PayPalGateway
+IPaymentGateway <|.. StripeGateway
+
+Payment o-- "-gateway" IPaymentGateway 
+@enduml

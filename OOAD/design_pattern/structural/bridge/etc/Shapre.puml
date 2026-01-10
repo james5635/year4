@@ -1,0 +1,37 @@
+@startuml
+' Abstraction
+abstract class Shape {
+    -renderer: IRenderer
+    +Shape(renderer: IRenderer)
+    +Draw()
+}
+
+' Refined Abstraction
+class Circle {
+    -radius: float
+    +Circle(renderer: IRenderer, radius: float)
+    +Draw()
+}
+
+' Implementation
+interface IRenderer {
+    +RenderCircle(radius: float)
+}
+
+' Concrete Implementations
+class OpenGLRenderer {
+    +RenderCircle(radius: float)
+}
+
+class DirectXRenderer {
+    +RenderCircle(radius: float)
+}
+
+' Relationships
+Shape <|.. Circle
+
+IRenderer <|.. OpenGLRenderer
+IRenderer <|.. DirectXRenderer
+
+Shape o-- IRenderer : renderer
+@enduml

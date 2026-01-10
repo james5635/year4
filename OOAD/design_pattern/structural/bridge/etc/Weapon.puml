@@ -1,0 +1,58 @@
+@startuml 
+' Abstraction
+interface IWeapon {
+    +wield()
+    +swing()
+    +unwield()
+    +getEnchantment()
+}
+
+' Refined Abstractions
+class Sword {
+    -enchantment: IEnchantment
+    +Sword(enchantment: IEnchantment)
+    +wield()
+    +swing()
+    +unwield()
+    +getEnchantment()
+}
+
+class Hammer {
+    -enchantment: IEnchantment
+    +Hammer(enchantment: IEnchantment)
+    +wield()
+    +swing()
+    +unwield()
+    +getEnchantment()
+}
+
+' Implementation
+interface IEnchantment {
+    +onActivate()
+    +apply()
+    +onDeactivate()
+}
+
+' Concrete Implementations
+class FlyingEnchantment {
+    +onActivate()
+    +apply()
+    +onDeactivate()
+}
+
+class SoulEatingEnchantment {
+    +onActivate()
+    +apply()
+    +onDeactivate()
+}
+
+' Relationships
+IWeapon <|.. Sword
+IWeapon <|.. Hammer
+
+IEnchantment <|.. FlyingEnchantment
+IEnchantment <|.. SoulEatingEnchantment
+
+Sword o-- "-enchantment" IEnchantment 
+Hammer o-- "-enchantment" IEnchantment
+@enduml
