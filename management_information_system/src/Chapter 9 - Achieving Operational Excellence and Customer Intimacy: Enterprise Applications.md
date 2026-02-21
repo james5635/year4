@@ -151,9 +151,9 @@ Companies now use:
 
 # 🧠 What to Remember for Exam
 
-✔ ERP integrates internal processes.
-✔ SCM connects suppliers to customers.
-✔ CRM improves customer relationships.
-✔ Enterprise systems eliminate data silos.
+✔ ERP integrates internal processes.  
+✔ SCM connects suppliers to customers.  
+✔ CRM improves customer relationships.  
+✔ Enterprise systems eliminate data silos.  
 ✔ Cloud solutions reduce cost and complexity.
 

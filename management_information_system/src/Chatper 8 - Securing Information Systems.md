@@ -123,9 +123,9 @@ Example: LinkedIn password breach due to weak encryption and no salting.
 
 # 🎯 What to Remember for Exam
 
-✔ Systems are vulnerable because they are connected and complex.
-✔ Major threats: malware, hackers, insiders, software bugs.
-✔ Identity theft & phishing are major modern crimes.
-✔ Security requires policies, controls, and technology.
+✔ Systems are vulnerable because they are connected and complex.  
+✔ Major threats: malware, hackers, insiders, software bugs.  
+✔ Identity theft & phishing are major modern crimes.  
+✔ Security requires policies, controls, and technology.  
 ✔ Cyberwarfare is growing and very serious.
 

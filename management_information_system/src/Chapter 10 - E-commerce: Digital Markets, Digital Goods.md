@@ -151,9 +151,9 @@ Growing rapidly due to smartphones.
 
 # 🧠 What to Remember for Exam
 
-✔ Know the **8 unique features** of e-commerce.
-✔ Understand **types of e-commerce (B2C, B2B, C2C, G2C)**.
-✔ Know the difference between **digital markets & digital goods**.
-✔ Understand **business models & revenue models**.
+✔ Know the **8 unique features** of e-commerce.  
+✔ Understand **types of e-commerce (B2C, B2B, C2C, G2C)**.  
+✔ Know the difference between **digital markets & digital goods**.  
+✔ Understand **business models & revenue models**.  
 ✔ M-commerce is rapidly growing.
 
