@@ -143,12 +143,12 @@ Goal: Maximize business value.
 
 # 🧠 What to Remember for Exam
 
-✔ Triple Constraint (Scope–Time–Cost)
-✔ Reasons projects fail
-✔ Project life cycle stages
-✔ Gantt vs PERT
-✔ Critical path meaning
-✔ Risk factors
+✔ Triple Constraint (Scope–Time–Cost)  
+✔ Reasons projects fail  
+✔ Project life cycle stages  
+✔ Gantt vs PERT  
+✔ Critical path meaning  
+✔ Risk factors  
 ✔ Portfolio management
 
 ---
@@ -157,10 +157,10 @@ Goal: Maximize business value.
 
 **I P E M C**
 
-Initiation
-Planning
-Execution
-Monitoring
+Initiation  
+Planning  
+Execution  
+Monitoring  
 Closing
 
 

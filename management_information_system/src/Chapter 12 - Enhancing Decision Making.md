@@ -204,12 +204,12 @@ Use analytics to:
 
 # 🧠 What to Remember for Exam
 
-✔ Structured vs Semistructured vs Unstructured
-✔ 4 decision-making stages
-✔ MIS vs DSS vs ESS
-✔ 6 BI capabilities
-✔ Balanced Scorecard & BPM
-✔ GDSS purpose
-✔ BI adoption strategies
-✔ Data-driven decision making creates business value
+✔ Structured vs Semistructured vs Unstructured  
+✔ 4 decision-making stages  
+✔ MIS vs DSS vs ESS  
+✔ 6 BI capabilities  
+✔ Balanced Scorecard & BPM  
+✔ GDSS purpose  
+✔ BI adoption strategies  
+✔ Data-driven decision making creates business value  
 

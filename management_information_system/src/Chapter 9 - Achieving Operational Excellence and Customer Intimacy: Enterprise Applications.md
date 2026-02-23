@@ -1,4 +1,4 @@
-# 📘 Chapter 9 – Enterprise Applications (Exam Summary)
+# 📘 Chapter 9 – Achieving Operational Excellence and Customer Intimacy: Enterprise Applications (Exam Summary)
 
 ## 🎯 Main Idea
 

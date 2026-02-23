@@ -1,4 +1,4 @@
-# 📘 Chapter 8: Securing Information Systems – Exam Summary
+# 📘 Chapter 8 - Securing Information Systems (Exam Summary)
 
 ## 1️⃣ Why Information Systems Are Vulnerable
 

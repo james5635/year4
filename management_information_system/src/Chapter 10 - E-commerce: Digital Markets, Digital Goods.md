@@ -1,4 +1,4 @@
-# 📘 Chapter 10 – E-commerce (Exam Summary)
+# 📘 Chapter 10 – E-commerce: Digital Markets, Digital Goods (Exam Summary)
 
 ## 🎯 Main Idea
 

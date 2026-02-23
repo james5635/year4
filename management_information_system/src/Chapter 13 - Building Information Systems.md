@@ -136,11 +136,11 @@ Important management issues:
 
 # 🧠 What to Remember for Exam
 
-✔ SDLC stages (know them in order)
-✔ Difference between traditional SDLC and Agile
-✔ Prototyping vs End-user development
-✔ Types of system conversion
-✔ Why systems fail (management issues)
+✔ SDLC stages (know them in order)  
+✔ Difference between traditional SDLC and Agile  
+✔ Prototyping vs End-user development  
+✔ Types of system conversion  
+✔ Why systems fail (management issues)  
 ✔ Systems require organizational change
 
 
@@ -148,10 +148,10 @@ Important management issues:
 
 **A D P T C P**
 
-Analysis
-Design
-Programming
-Testing
-Conversion
+Analysis  
+Design  
+Programming  
+Testing  
+Conversion  
 Production
 

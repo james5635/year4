@@ -125,10 +125,10 @@ Companies reduce risk by:
 
 # 🧠 What to Remember for Exam
 
-✔ Definition of global information systems
-✔ 4 global business strategies
-✔ Cultural, legal, economic, and tech challenges
-✔ Centralized vs decentralized IT
+✔ Definition of global information systems  
+✔ 4 global business strategies  
+✔ Cultural, legal, economic, and tech challenges  
+✔ Centralized vs decentralized IT  
 ✔ Importance of governance & standards
 
 ---
@@ -137,8 +137,8 @@ Companies reduce risk by:
 
 Remember **C P E T**
 
-C – Cultural
-P – Political/Legal
-E – Economic
+C – Cultural  
+P – Political/Legal  
+E – Economic  
 T – Technology
 

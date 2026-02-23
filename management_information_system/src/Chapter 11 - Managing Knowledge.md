@@ -137,9 +137,9 @@ A **learning organization** continuously improves.
 
 # 🧠 What to Remember for Exam
 
-✔ Difference between **tacit vs explicit knowledge**
-✔ The **knowledge value chain (4 steps)**
-✔ Types of **Knowledge Management Systems**
-✔ Role of KM in competitive advantage
-✔ Technology + culture are both required
+✔ Difference between **tacit vs explicit knowledge**  
+✔ The **knowledge value chain (4 steps)**  
+✔ Types of **Knowledge Management Systems**  
+✔ Role of KM in competitive advantage  
+✔ Technology + culture are both required  
 
