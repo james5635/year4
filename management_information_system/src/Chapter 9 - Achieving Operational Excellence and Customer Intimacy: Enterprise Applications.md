@@ -28,9 +28,9 @@ They connect the whole organization into one system.
 
 ### 🔑 Key Benefits:
 
-✔ Real-time data
-✔ Eliminates data duplication
-✔ Standardized processes
+✔ Real-time data  
+✔ Eliminates data duplication  
+✔ Standardized processes  
 ✔ Better decision-making
 
 ### ⚠ Challenges:
@@ -69,9 +69,9 @@ At the **lowest cost**
 
 ### 🔑 Benefits:
 
-✔ Reduce inventory
-✔ Lower costs
-✔ Improve delivery speed
+✔ Reduce inventory  
+✔ Lower costs  
+✔ Improve delivery speed  
 ✔ Increase responsiveness
 
 ---
@@ -132,9 +132,9 @@ Companies now use:
 
 ### Benefits:
 
-✔ Lower upfront cost
-✔ Faster implementation
-✔ Scalability
+✔ Lower upfront cost  
+✔ Faster implementation  
+✔ Scalability  
 ✔ Easier updates
 
 ---
