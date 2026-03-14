@@ -13,3 +13,5 @@ Resource for year 4 course
 - [x] OOAD (Mart Management)
 - [ ] submit linux
 - [ ] present OOAD
+- [ ] OOAD Homework
+- [ ] Review OOAD/MIS/ITPM
