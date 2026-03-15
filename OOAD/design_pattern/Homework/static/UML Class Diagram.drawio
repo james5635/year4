@@ -347,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zQAkXtFH7zrynjSQYIHz" name="Chain of Responsibility">
-    <mxGraphModel dx="727" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="200" dy="131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,7 +360,7 @@
         <mxCell id="J_r--Y1qoBf-zSHTBLnW-3" parent="J_r--Y1qoBf-zSHTBLnW-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;i&gt;+ HandleRequest(): void&lt;/i&gt;" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="J_r--Y1qoBf-zSHTBLnW-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-successor" vertex="1">
+        <mxCell id="J_r--Y1qoBf-zSHTBLnW-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="#successor" vertex="1">
           <mxGeometry height="30" width="60" x="570" y="200" as="geometry" />
         </mxCell>
         <mxCell id="J_r--Y1qoBf-zSHTBLnW-6" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
