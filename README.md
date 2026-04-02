@@ -13,6 +13,6 @@ Resource for year 4 course
 - [x] OOAD (Mart Management)
 - [x] present OOAD
 - [x] OOAD Homework
-- [ ] phase-3 presentation for SE
-- [ ] Review OOAD/MIS/ITPM
+- [x] phase-3 presentation for SE
+- [x] Review OOAD/MIS/ITPM
 - [ ] submit linux

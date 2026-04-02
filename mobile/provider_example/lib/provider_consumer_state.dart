@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 
 // // For multiple providers, use MultiProvider
 // void main() {
@@ -57,7 +59,6 @@ class _HomePageState extends State<HomePage> {
       context.read<Counter>().increment();
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
