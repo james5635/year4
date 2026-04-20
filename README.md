@@ -11,8 +11,8 @@ Resource for year 4 course
 - [x] Mobile (Motorcycle shop management) [3/9/2025]
 - [x] MIS (Summary Management Information Systems - Managing the Digital Firm) [3/9/2025]
 - [x] OOAD (Mart Management)
-- [x] present OOAD
-- [x] OOAD Homework
-- [x] phase-3 presentation for SE
-- [x] Review OOAD/MIS/ITPM
-- [x] submit linux
+- [x] OOAD (Presentation)
+- [x] OOAD (Homework)
+- [x] SE (phase-3 presentation) 
+- [x] OOAD/MIS/ITPM (Review)
+- [x] Linux (submit project)
