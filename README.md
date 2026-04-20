@@ -15,4 +15,4 @@ Resource for year 4 course
 - [x] OOAD Homework
 - [x] phase-3 presentation for SE
 - [x] Review OOAD/MIS/ITPM
-- [ ] submit linux
+- [x] submit linux
